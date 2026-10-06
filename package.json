@@ -1,0 +1,40 @@
+{
+  "name": "saas-video-kit",
+  "version": "1.2.0",
+  "description": "Kit de vidéos SaaS (Remotion) piloté par marque, textes et storyboard",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.533",
+    "@remotion/google-fonts": "4.0.533",
+    "@remotion/media": "4.0.533",
+    "@remotion/transitions": "4.0.533",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.533"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.533",
+    "@types/react": "19.2.7",
+    "@types/web": "0.0.166",
+    "eslint": "9.39.5",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "registry": "node scripts/build-registry.mjs",
+    "dev": "npm run registry && remotion studio",
+    "build": "npm run registry && remotion bundle",
+    "lint": "npm run registry && eslint src content && tsc",
+    "upgrade": "remotion upgrade",
+    "validate": "node scripts/validate.mjs",
+    "music-prompt": "node scripts/music-prompt.mjs",
+    "mix-music": "node scripts/mix-music.mjs",
+    "render-all": "node scripts/render-all.mjs",
+    "capture-guide": "node scripts/capture-guide.mjs",
+    "new-brand": "node scripts/new-brand.mjs",
+    "new-video": "node scripts/new-video.mjs",
+    "subtitles": "node scripts/subtitles.mjs",
+    "placeholders": "node scripts/placeholders.mjs"
+  }
+}

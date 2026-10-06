@@ -1,0 +1,6 @@
+description = "Démarre une nouvelle vidéo de présentation de SaaS (entretien, brief, script)"
+prompt = """
+Active le skill `saas-video` et démarre une nouvelle vidéo.
+Produit ou sujet indiqué par l'utilisateur : {{args}}
+Commence par les étapes 0 à 2 (projet du kit, cadrage, entretien et brief) ; ne passe à la suite qu'avec la validation de l'utilisateur.
+"""

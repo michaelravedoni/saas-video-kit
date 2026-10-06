@@ -1,0 +1,15 @@
+{
+  "name": "saas-video",
+  "description": "Outils pour produire des vidéos de présentation de SaaS",
+  "owner": {
+    "name": "Michael Ravedoni"
+  },
+  "plugins": [
+    {
+      "name": "saas-video-kit",
+      "source": "./",
+      "description": "Monte des vidéos de présentation de SaaS (16:9, 9:16, miniatures YouTube, musique, sous-titres en option) avec un kit Remotion, par points de contrôle.",
+      "version": "1.2.0"
+    }
+  ]
+}

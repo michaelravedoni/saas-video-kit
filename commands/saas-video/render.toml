@@ -1,0 +1,5 @@
+description = "Valide puis rend toutes les versions d'une vidéo (langues, formats, miniatures) avec contrôles"
+prompt = """
+Active le skill `saas-video`. Vidéo à rendre : {{args}}
+Lance `npm run validate -- <vidéo>` ; s'il y a des erreurs, corrige-les ou signale-les. Sinon lance `npm run render-all -- <vidéo> --dry-run`, annonce ce qui sera rendu et sa durée, et attends la validation de l'utilisateur avant le rendu réel. Rapporte ensuite le bilan des contrôles tel quel.
+"""

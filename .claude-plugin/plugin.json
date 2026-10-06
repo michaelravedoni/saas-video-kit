@@ -1,0 +1,14 @@
+{
+  "name": "saas-video-kit",
+  "version": "1.2.0",
+  "description": "Monte des vidéos de présentation de SaaS (16:9, 9:16, miniatures YouTube, musique, sous-titres en option) avec un kit Remotion, par points de contrôle.",
+  "author": {
+    "name": "Michael Ravedoni"
+  },
+  "keywords": [
+    "video",
+    "remotion",
+    "saas",
+    "marketing"
+  ]
+}

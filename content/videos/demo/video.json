@@ -1,0 +1,120 @@
+{
+  "id": "demo",
+  "brand": "demo",
+  "locales": [
+    "fr",
+    "en"
+  ],
+  "formats": [
+    "16x9",
+    "9x16"
+  ],
+  "transitionFrames": 10,
+  "scenes": [
+    {
+      "type": "chaos",
+      "frames": 310,
+      "transitionOut": "fade"
+    },
+    {
+      "type": "reveal",
+      "frames": 340,
+      "transitionOut": "slide",
+      "props": {
+        "desktopCapture": "demo-ordinateur.png",
+        "mobileCapture": "demo-mobile.png",
+        "highlightRow": {
+          "x": 0.245,
+          "y": 0.4816,
+          "w": 0.358,
+          "h": 0.064
+        }
+      }
+    },
+    {
+      "type": "phoneFlow",
+      "frames": 370,
+      "transitionOut": "fade",
+      "props": {
+        "profileCapture": "demo-mobile-profil.png",
+        "blur": null
+      }
+    },
+    {
+      "type": "choiceCard",
+      "frames": 340,
+      "transitionOut": "slide",
+      "props": {
+        "rows": [
+          {
+            "total": 10,
+            "value": 4
+          },
+          {
+            "total": 3,
+            "value": 1
+          },
+          {
+            "total": 4,
+            "value": 2
+          }
+        ],
+        "selectRow": 0,
+        "fillRow": 1,
+        "slotIndex": 1
+      }
+    },
+    {
+      "type": "control",
+      "frames": 310,
+      "transitionOut": "fade",
+      "props": {
+        "statsValues": [
+          50,
+          38,
+          24,
+          12
+        ]
+      }
+    },
+    {
+      "type": "custom",
+      "name": "Highlight",
+      "id": "highlight",
+      "frames": 240,
+      "transitionOut": "fade",
+      "musicRole": "build",
+      "cues": {
+        "title": [
+          0,
+          240
+        ],
+        "stats": 28
+      },
+      "textCues": {
+        "title": "title"
+      },
+      "props": {
+        "values": [
+          12,
+          148,
+          37
+        ]
+      }
+    },
+    {
+      "type": "cta",
+      "frames": 210,
+      "props": {
+        "timerPill": 2
+      }
+    }
+  ],
+  "thumbnails": {
+    "desktopCapture": "demo-ordinateur.png",
+    "mobileCapture": "demo-mobile.png"
+  },
+  "subtitles": {
+    "source": "auto"
+  }
+}

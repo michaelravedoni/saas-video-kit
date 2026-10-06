@@ -1,0 +1,420 @@
+{
+  "chaos": {
+    "label": "Le chaos : notifications qui s'empilent, e-mail perdu, tableur qui se dérègle, puis la phrase de rupture (scène sombre)",
+    "copy": [
+      "message",
+      "mail",
+      "excel",
+      "end",
+      "endHighlight",
+      "notifications[].name",
+      "notifications[].text",
+      "time",
+      "unread",
+      "mailSubject",
+      "mailMeta",
+      "sheetFile",
+      "sheetHeaders[]",
+      "sheetRows[][]"
+    ],
+    "rawCopy": [
+      "notifications[].name",
+      "time",
+      "sheetFile",
+      "sheetHeaders",
+      "sheetRows"
+    ],
+    "textCues": {
+      "message": "message",
+      "mail": "mail",
+      "excel": "excel",
+      "end": "end"
+    },
+    "props": {},
+    "propsDefaults": {},
+    "cues": {
+      "message": [26, 100],
+      "mail": [100, 146],
+      "excel": [148, 214],
+      "end": [218, 310]
+    },
+    "music": {
+      "role": "tension",
+      "events": [
+        {
+          "cue": "message",
+          "edge": "start",
+          "kind": "hit",
+          "label": "the phone lights up, first notification"
+        },
+        {
+          "cue": "mail",
+          "edge": "start",
+          "kind": "accent",
+          "label": "a lost e-mail appears"
+        },
+        {
+          "cue": "excel",
+          "edge": "start",
+          "kind": "accent",
+          "label": "a messy spreadsheet appears"
+        },
+        {
+          "cue": "end",
+          "edge": "start",
+          "kind": "hit",
+          "label": "the break line appears; the tension peaks"
+        }
+      ]
+    }
+  },
+  "reveal": {
+    "label": "La solution : logo, slogan, sous-titre, puis tableau de bord et téléphone avec un clic sur une ligne",
+    "copy": ["tagline", "taglineHighlight", "subtitle", "subtitleHighlight"],
+    "rawCopy": [],
+    "textCues": {
+      "tagline": "tagline",
+      "subtitle": "subtitle"
+    },
+    "props": {
+      "desktopCapture": "capture (fichier de public/videos/<id>/captures/)",
+      "mobileCapture": "capture mobile",
+      "highlightRow": "{x,y,w,h} en fractions de la capture : ligne cliquée"
+    },
+    "propsDefaults": {},
+    "cues": {
+      "logo": [10, 56],
+      "tagline": [56, 142],
+      "visuals": [142, 340],
+      "subtitle": [146, 340],
+      "cursor": [180, 232]
+    },
+    "music": {
+      "role": "release",
+      "events": [
+        {
+          "cue": "logo",
+          "edge": "start",
+          "kind": "accent",
+          "label": "logo appears"
+        },
+        {
+          "cue": "tagline",
+          "edge": "start",
+          "kind": "accent",
+          "label": "tagline appears"
+        },
+        {
+          "cue": "visuals",
+          "edge": "start",
+          "kind": "accent",
+          "label": "app screens glide in"
+        },
+        {
+          "cue": "cursor",
+          "edge": "end",
+          "kind": "accent",
+          "label": "click on a row"
+        }
+      ]
+    }
+  },
+  "phoneFlow": {
+    "label": "Un parcours sur téléphone : e-mail avec bouton, ouverture de l'application, formulaire à cocher (2 lignes)",
+    "copy": [
+      "title",
+      "titleHighlight",
+      "clicks",
+      "clicksHighlight",
+      "family",
+      "inbox",
+      "emailSender",
+      "emailNow",
+      "emailSubject",
+      "emailBody",
+      "emailButton",
+      "eventName",
+      "eventMeta",
+      "registered",
+      "items[].name",
+      "items[].meta"
+    ],
+    "rawCopy": ["emailSender", "items[].meta"],
+    "textCues": {
+      "title": "title",
+      "clicks": "clicks",
+      "family": "family"
+    },
+    "props": {
+      "profileCapture": "capture mobile affichée à l'ouverture de l'application",
+      "blur": "{left,top,width,height} ou null : zone floutée de la capture (ex. lien personnel)"
+    },
+    "propsDefaults": {
+      "blur": null
+    },
+    "cues": {
+      "title": [0, 168],
+      "phone": [52, 370],
+      "email": [64, 170],
+      "click": 148,
+      "appOpen": [152, 230],
+      "familyScreen": 226,
+      "clicks": [196, 370],
+      "family": [250, 370],
+      "check1": 262,
+      "check2": 292
+    },
+    "music": {
+      "role": "groove",
+      "events": [
+        {
+          "cue": "email",
+          "edge": "start",
+          "kind": "accent",
+          "label": "an e-mail arrives"
+        },
+        {
+          "cue": "click",
+          "edge": "at",
+          "kind": "hit",
+          "label": "tap on the login button"
+        },
+        {
+          "cue": "familyScreen",
+          "edge": "at",
+          "kind": "accent",
+          "label": "the app opens"
+        },
+        {
+          "cue": "check1",
+          "edge": "at",
+          "kind": "accent",
+          "label": "first checkbox ticked"
+        },
+        {
+          "cue": "check2",
+          "edge": "at",
+          "kind": "hit",
+          "label": "second checkbox ticked"
+        }
+      ]
+    }
+  },
+  "choiceCard": {
+    "label": "Une carte de choix : on sélectionne une ligne, on choisit un créneau, validation, puis une autre ligne se remplit jusqu'à « Complet »",
+    "copy": [
+      "title",
+      "titleHighlight",
+      "cardTitle",
+      "cardMeta",
+      "rows[].name",
+      "choose",
+      "full",
+      "validated",
+      "slots[]",
+      "quotas",
+      "quotasHighlight"
+    ],
+    "rawCopy": [],
+    "textCues": {
+      "title": "title",
+      "quotas": "quotas"
+    },
+    "props": {
+      "rows": "[{total, value}] : quota et valeur de départ de chaque ligne",
+      "selectRow": "index de la ligne choisie par l'utilisateur",
+      "fillRow": "index de la ligne qui se remplit",
+      "slotIndex": "index du créneau choisi"
+    },
+    "propsDefaults": {
+      "selectRow": 0,
+      "fillRow": 1,
+      "slotIndex": 1
+    },
+    "cues": {
+      "title": [0, 94],
+      "card": 88,
+      "choose": 116,
+      "slotClick": 148,
+      "validated": 154,
+      "collapse": 162,
+      "shift": [196, 222],
+      "quotas": [204, 340],
+      "timer2": 238,
+      "timer3": 268
+    },
+    "music": {
+      "role": "groove",
+      "events": [
+        {
+          "cue": "card",
+          "edge": "at",
+          "kind": "accent",
+          "label": "the card appears"
+        },
+        {
+          "cue": "choose",
+          "edge": "at",
+          "kind": "accent",
+          "label": "a post is chosen"
+        },
+        {
+          "cue": "validated",
+          "edge": "at",
+          "kind": "hit",
+          "label": "the 'confirmed' pill appears"
+        },
+        {
+          "cue": "timer2",
+          "edge": "at",
+          "kind": "accent",
+          "label": "a quota fills up"
+        },
+        {
+          "cue": "timer3",
+          "edge": "at",
+          "kind": "hit",
+          "label": "a quota becomes 'full'"
+        }
+      ]
+    }
+  },
+  "control": {
+    "label": "Le contrôle : cartes de statistiques, puis délai d'inscription (compte à rebours, fermeture), export PDF, slogan",
+    "copy": [
+      "title",
+      "titleHighlight",
+      "statsLabels[]",
+      "statsSub",
+      "deadline",
+      "deadlineHighlight",
+      "deadlineLabel",
+      "cardTitle",
+      "cardMeta",
+      "countdown[]",
+      "closed",
+      "register",
+      "registerClosed",
+      "listPdf",
+      "pdfFile",
+      "slogan",
+      "sloganHighlight"
+    ],
+    "rawCopy": ["pdfFile"],
+    "textCues": {
+      "title": "title",
+      "deadline": "subtitle",
+      "slogan": "slogan"
+    },
+    "props": {
+      "statsValues": "[nombres] : valeurs des 4 cartes de statistiques"
+    },
+    "propsDefaults": {},
+    "cues": {
+      "title": [0, 96],
+      "stats": 34,
+      "statsExit": [94, 108],
+      "card": 100,
+      "subtitle": [102, 226],
+      "steps": [124, 140, 156, 172],
+      "closed": 184,
+      "pdfClick": 214,
+      "slogan": [230, 310]
+    },
+    "music": {
+      "role": "build",
+      "events": [
+        {
+          "cue": "stats",
+          "edge": "at",
+          "kind": "accent",
+          "label": "statistics counters start"
+        },
+        {
+          "cue": "card",
+          "edge": "at",
+          "kind": "accent",
+          "label": "deadline card appears"
+        },
+        {
+          "cue": "closed",
+          "edge": "at",
+          "kind": "hit",
+          "label": "registration closes automatically"
+        },
+        {
+          "cue": "pdfClick",
+          "edge": "at",
+          "kind": "accent",
+          "label": "PDF export click"
+        },
+        {
+          "cue": "slogan",
+          "edge": "start",
+          "kind": "hit",
+          "label": "slogan appears"
+        }
+      ]
+    }
+  },
+  "cta": {
+    "label": "L'appel à l'action : question, bouton, pastilles de réassurance (une avec chronomètre), logo, drapeau et URL, fondu blanc final",
+    "copy": ["question", "button", "pills[]", "url"],
+    "rawCopy": ["url"],
+    "textCues": {
+      "question": "question"
+    },
+    "props": {
+      "timerPill": "index de la pastille qui porte le chronomètre 0 → 30 (ou null)"
+    },
+    "propsDefaults": {
+      "timerPill": null
+    },
+    "cues": {
+      "question": [0, 210],
+      "button": 56,
+      "pills": 100,
+      "timer": [128, 190],
+      "url": 140,
+      "fadeOut": [194, 210]
+    },
+    "music": {
+      "role": "resolution",
+      "events": [
+        {
+          "cue": "question",
+          "edge": "start",
+          "kind": "accent",
+          "label": "the closing question appears"
+        },
+        {
+          "cue": "button",
+          "edge": "at",
+          "kind": "hit",
+          "label": "the call-to-action button appears"
+        },
+        {
+          "cue": "url",
+          "edge": "at",
+          "kind": "accent",
+          "label": "logo and URL appear"
+        },
+        {
+          "cue": "fadeOut",
+          "edge": "start",
+          "kind": "end",
+          "label": "final fade to white begins: the music should be ending"
+        }
+      ]
+    }
+  },
+  "_music": {
+    "roles": {
+      "tension": "Dark, tense and nervous: low synth pulse or muted sub-bass drone, ticking pulse on 8th notes, short staccato plucks, soft rising filtered noise. No full melody, no warm chords. The pulse gets denser and more anxious over time.",
+      "release": "Light, airy and confident, like light flooding a dark room: soft piano or warm electric piano playing simple open chords, gentle plucked arpeggio, light and soft percussion (shaker, soft kick on every beat). Spacious and minimal. Feeling: relief, clarity, everything is simple now.",
+      "groove": "Light rhythmic groove: claps or finger snaps on beats 2 and 4, a bouncy marimba or pluck motif, gentle bass, warmer and fuller harmony over time. Positive, easy, smooth, collaborative.",
+      "build": "More energy and drive: steady kick, more bass movement, hi-hats, rising confidence. Still clean and light, never aggressive. Gradual build toward the finale.",
+      "resolution": "The emotional peak and resolution: full but uncluttered, uplifting and bright. The main motif returns in its fullest form. Clear sense of invitation. Hold a final warm chord and let it ring, then a natural fade out."
+    }
+  }
+}

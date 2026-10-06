@@ -1,0 +1,196 @@
+{
+  "chaos": {
+    "message": "Un message WhatsApp à 23·h·30.",
+    "mail": "Un mail perdu.",
+    "excel": "Un fichier Excel illisible.",
+    "end": "Le chaos des inscriptions, c'est terminé.",
+    "endHighlight": "terminé.",
+    "notifications": [
+      {
+        "name": "Jacques",
+        "text": "Je m'inscris pour demain·!"
+      },
+      {
+        "name": "Sophie",
+        "text": "Mon fils sera là"
+      },
+      {
+        "name": "Marc",
+        "text": "Finalement je ne peux pas…"
+      },
+      {
+        "name": "Nadia",
+        "text": "Quelqu'un a le fichier·?"
+      }
+    ],
+    "time": "23:30",
+    "unread": "messages non lus",
+    "mailSubject": "Inscription tournoi",
+    "mailMeta": "Envoyé il y a 3 semaines",
+    "sheetFile": "Inscriptions_FINAL_v7 (2)",
+    "sheetHeaders": [
+      "Nom",
+      "Présent",
+      "Remarque"
+    ],
+    "sheetRows": [
+      [
+        "Marc Dubois",
+        "Oui",
+        ""
+      ],
+      [
+        "Sophie M.",
+        "!?",
+        "voir mail"
+      ],
+      [
+        "Sophie Martin",
+        "Oui",
+        "!#REF!"
+      ],
+      [
+        "Jacques",
+        "—",
+        "msg 23 h"
+      ],
+      [
+        "Léa Favre",
+        "Oui",
+        "!Oui"
+      ],
+      [
+        "Marc Dubois",
+        "!Non",
+        ""
+      ],
+      [
+        "Nadia B.",
+        "Peut-être",
+        "!#NOM?"
+      ],
+      [
+        "Tom (fils de ?)",
+        "Oui",
+        ""
+      ]
+    ]
+  },
+  "reveal": {
+    "tagline": "Vos inscriptions en mode «·auto·».",
+    "taglineHighlight": "«·auto·».",
+    "subtitle": "La solution simple pour automatiser les inscriptions de vos athlètes, membres et bénévoles.",
+    "subtitleHighlight": "automatiser"
+  },
+  "phoneFlow": {
+    "title": "Zéro mot de passe.",
+    "titleHighlight": "passe.",
+    "clicks": "2 clics pour s'inscrire.",
+    "clicksHighlight": "2",
+    "family": "Les parents gèrent toute la famille.",
+    "inbox": "Boîte de réception",
+    "emailSender": "Acme",
+    "emailNow": "à l'instant",
+    "emailSubject": "Votre lien de connexion Acme",
+    "emailBody": "Cliquez sur le bouton pour vous connecter. Aucun mot de passe.",
+    "emailButton": "Se connecter",
+    "eventName": "Championnats régionaux",
+    "eventMeta": "14–15·janv. • Genève",
+    "registered": "inscrits",
+    "items": [
+      {
+        "name": "Léa Martin",
+        "meta": "2014 ·· U12W"
+      },
+      {
+        "name": "Tom Martin",
+        "meta": "2016 ·· U10M"
+      }
+    ]
+  },
+  "choiceCard": {
+    "title": "Simplifiez la vie de vos bénévoles.",
+    "titleHighlight": "bénévoles.",
+    "cardTitle": "Loto",
+    "cardMeta": "3·mars • Lausanne",
+    "rows": [
+      {
+        "name": "Buvette"
+      },
+      {
+        "name": "Chronométreur"
+      },
+      {
+        "name": "Caisse"
+      }
+    ],
+    "choose": "Choisir",
+    "full": "Complet",
+    "validated": "Validé",
+    "slots": [
+      "11·h·00 – 13·h·00",
+      "13·h·00 – 15·h·00"
+    ],
+    "quotas": "Le·système gère les quotas.",
+    "quotasHighlight": "quotas."
+  },
+  "control": {
+    "title": "Tout votre club au même endroit.",
+    "titleHighlight": "même",
+    "statsLabels": [
+      "Contacts",
+      "Enregistrements",
+      "Connexions",
+      "Emails"
+    ],
+    "statsSub": "30 derniers jours",
+    "deadline": "Les inscriptions se ferment toutes seules.",
+    "deadlineHighlight": "toutes seules.",
+    "deadlineLabel": "Délai d'inscription",
+    "cardTitle": "Championnats régionaux",
+    "cardMeta": "14–15·janv. • Genève",
+    "countdown": [
+      "dans 4 jours",
+      "dans 3 jours",
+      "dans 2 jours",
+      "dans 1 jour",
+      "aujourd'hui"
+    ],
+    "closed": "Inscriptions closes",
+    "register": "S'inscrire",
+    "registerClosed": "Fermé",
+    "listPdf": "Liste PDF",
+    "pdfFile": "Championnats-regionaux.pdf",
+    "slogan": "Le délai, c'est le délai.",
+    "sloganHighlight": "délai."
+  },
+  "cta": {
+    "question": "Prêt à vous simplifier la vie·?",
+    "button": "Essayer gratuitement",
+    "pills": [
+      "Plan gratuit",
+      "Sans carte bancaire",
+      "Création et configuration en 30·secondes"
+    ],
+    "url": "acme.example"
+  },
+  "thumbnail": {
+    "lines": [
+      "Le chaos des",
+      "inscriptions,",
+      "c'est terminé."
+    ],
+    "highlight": "terminé.",
+    "badge": "Plan gratuit"
+  },
+  "highlight": {
+    "title": "Moins d'administratif, plus de terrain.",
+    "titleHighlight": "terrain.",
+    "labels": [
+      "Heures gagnées",
+      "Inscriptions",
+      "Relances évitées"
+    ],
+    "sub": "par mois"
+  }
+}

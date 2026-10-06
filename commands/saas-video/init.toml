@@ -1,0 +1,6 @@
+description = "Crée un nouveau projet de vidéos SaaS (kit Remotion complet)"
+prompt = """
+Active le skill `saas-video` et exécute son étape 0 : crée un nouveau projet du kit dans un dossier vide.
+Nom ou dossier demandé par l'utilisateur : {{args}}
+Si aucun nom n'est donné, demande-le. Vérifie le résultat avec `npm run validate`, puis propose la suite (première marque, première vidéo).
+"""

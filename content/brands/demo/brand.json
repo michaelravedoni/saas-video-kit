@@ -1,0 +1,43 @@
+{
+  "id": "demo",
+  "name": "Acme",
+  "font": "Poppins",
+  "logo": {
+    "file": "brands/demo/logo.png",
+    "width": 500,
+    "height": 166
+  },
+  "colors": {
+    "blue": "#5B3FD9",
+    "blueDeep": "#442FA3",
+    "blueLogo": "#4D36B8",
+    "blueTint": "#EFECFB",
+    "blueMid": "#DBD5F7",
+    "bg": "#F9FAFB",
+    "white": "#FFFFFF",
+    "ink": "#0F172A",
+    "gray": "#6B7280",
+    "line": "#E5E7EB",
+    "success": "#16A34A",
+    "successTint": "#DCFCE7",
+    "danger": "#DC2626",
+    "dangerTint": "#FEE2E2",
+    "night": "#0A1A3A",
+    "nightDeep": "#050D1F",
+    "blueOnNight": "#A595EA"
+  },
+  "claims": {
+    "allowed": [
+      "Plan gratuit",
+      "Sans carte bancaire",
+      "Création et configuration en 30 secondes",
+      "acme.example"
+    ],
+    "forbiddenWords": ["installation"]
+  },
+  "tone": "Chaleureux, concret, direct. Un peu d'humour dans l'accroche. Pas de jargon.",
+  "music": {
+    "style": "modern tech-product launch music, light electronic-pop with organic touches (piano, plucks, soft percussion), clean sound design, warm, human, quietly confident",
+    "avoid": "vocals, choirs, spoken voice, cheesy corporate sound, aggressive EDM, heavy distortion, long intros, abrupt endings"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "chaos": {
+    "message": "A WhatsApp message at 11:30 pm.",
+    "mail": "A lost email.",
+    "excel": "An unreadable Excel file.",
+    "end": "The registration chaos is over.",
+    "endHighlight": "over.",
+    "notifications": [
+      {
+        "name": "Jacques",
+        "text": "I'm signing up for tomorrow!"
+      },
+      {
+        "name": "Sophie",
+        "text": "My son will be there"
+      },
+      {
+        "name": "Marc",
+        "text": "Actually I can't make it…"
+      },
+      {
+        "name": "Nadia",
+        "text": "Does anyone have the file?"
+      }
+    ],
+    "time": "23:30",
+    "unread": "unread messages",
+    "mailSubject": "Tournament registration",
+    "mailMeta": "Sent 3 weeks ago",
+    "sheetFile": "Registrations_FINAL_v7 (2)",
+    "sheetHeaders": [
+      "Name",
+      "Present",
+      "Notes"
+    ],
+    "sheetRows": [
+      [
+        "Marc Dubois",
+        "Yes",
+        ""
+      ],
+      [
+        "Sophie M.",
+        "!?",
+        "see email"
+      ],
+      [
+        "Sophie Martin",
+        "Yes",
+        "!#REF!"
+      ],
+      [
+        "Jacques",
+        "—",
+        "msg 11 pm"
+      ],
+      [
+        "Léa Favre",
+        "Yes",
+        "!Yes"
+      ],
+      [
+        "Marc Dubois",
+        "!No",
+        ""
+      ],
+      [
+        "Nadia B.",
+        "Maybe",
+        "!#NAME?"
+      ],
+      [
+        "Tom (whose son?)",
+        "Yes",
+        ""
+      ]
+    ]
+  },
+  "reveal": {
+    "tagline": "Your sign-ups on “auto”.",
+    "taglineHighlight": "“auto”.",
+    "subtitle": "The simple solution to automate sign-ups for your athletes, members and volunteers.",
+    "subtitleHighlight": "automate"
+  },
+  "phoneFlow": {
+    "title": "Zero passwords.",
+    "titleHighlight": "passwords.",
+    "clicks": "2 clicks to sign·up.",
+    "clicksHighlight": "2",
+    "family": "Parents manage the whole family.",
+    "inbox": "Inbox",
+    "emailSender": "Acme",
+    "emailNow": "just now",
+    "emailSubject": "Your Acme login link",
+    "emailBody": "Tap the button to log in. No password needed.",
+    "emailButton": "Log in",
+    "eventName": "Regional Championships",
+    "eventMeta": "Jan 14–15 • Genève",
+    "registered": "registered",
+    "items": [
+      {
+        "name": "Léa Martin",
+        "meta": "2014 ·· U12W"
+      },
+      {
+        "name": "Tom Martin",
+        "meta": "2016 ·· U10M"
+      }
+    ]
+  },
+  "choiceCard": {
+    "title": "Make life easier for your volunteers.",
+    "titleHighlight": "volunteers.",
+    "cardTitle": "Raffle",
+    "cardMeta": "Mar 3 • Lausanne",
+    "rows": [
+      {
+        "name": "Bar"
+      },
+      {
+        "name": "Timekeeper"
+      },
+      {
+        "name": "Cash desk"
+      }
+    ],
+    "choose": "Choose",
+    "full": "Full",
+    "validated": "Confirmed",
+    "slots": [
+      "11 am – 1 pm",
+      "1 pm – 3 pm"
+    ],
+    "quotas": "The system manages the quotas.",
+    "quotasHighlight": "quotas."
+  },
+  "control": {
+    "title": "Your whole club in one place.",
+    "titleHighlight": "one",
+    "statsLabels": [
+      "Contacts",
+      "Registrations",
+      "Logins",
+      "Emails"
+    ],
+    "statsSub": "Last 30 days",
+    "deadline": "Registrations close by themselves.",
+    "deadlineHighlight": "by themselves.",
+    "deadlineLabel": "Registration deadline",
+    "cardTitle": "Regional Championships",
+    "cardMeta": "Jan 14–15 • Genève",
+    "countdown": [
+      "in 4 days",
+      "in 3 days",
+      "in 2 days",
+      "in 1 day",
+      "today"
+    ],
+    "closed": "Registration closed",
+    "register": "Sign up",
+    "registerClosed": "Closed",
+    "listPdf": "PDF list",
+    "pdfFile": "Regional-Championships.pdf",
+    "slogan": "A deadline is a deadline.",
+    "sloganHighlight": "deadline."
+  },
+  "cta": {
+    "question": "Ready to make your life easier?",
+    "button": "Try for free",
+    "pills": [
+      "Free plan",
+      "No credit card",
+      "Create and set up in 30 seconds"
+    ],
+    "url": "acme.example"
+  },
+  "thumbnail": {
+    "lines": [
+      "The registration",
+      "chaos is",
+      "over."
+    ],
+    "highlight": "over.",
+    "badge": "Free plan"
+  },
+  "highlight": {
+    "title": "Less admin, more field time.",
+    "titleHighlight": "time.",
+    "labels": [
+      "Hours saved",
+      "Sign-ups",
+      "Reminders avoided"
+    ],
+    "sub": "per month"
+  }
+}
